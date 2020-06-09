@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>611</width>
+    <height>526</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>611</width>
+      <height>480</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="styleSheet">
+        <string notr="true">font: 20pt &quot;Comic Sans MS&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Jacobi method</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QTableWidget" name="jacobiTable">
+       <property name="styleSheet">
+        <string notr="true">font: 8pt &quot;Comic Sans MS&quot;;</string>
+       </property>
+       <property name="editTriggers">
+        <set>QAbstractItemView::NoEditTriggers</set>
+       </property>
+       <attribute name="verticalHeaderVisible">
+        <bool>false</bool>
+       </attribute>
+       <column>
+        <property name="text">
+         <string>k</string>
+        </property>
+        <property name="font">
+         <font>
+          <family>Comic Sans MS</family>
+         </font>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>x1</string>
+        </property>
+        <property name="font">
+         <font>
+          <family>Comic Sans MS</family>
+         </font>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>x2</string>
+        </property>
+        <property name="font">
+         <font>
+          <family>Comic Sans MS</family>
+         </font>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>x3</string>
+        </property>
+        <property name="font">
+         <font>
+          <family>Comic Sans MS</family>
+         </font>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>x4</string>
+        </property>
+        <property name="font">
+         <font>
+          <family>Comic Sans MS</family>
+         </font>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Delta</string>
+        </property>
+        <property name="font">
+         <font>
+          <family>Comic Sans MS</family>
+         </font>
+        </property>
+       </column>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_2">
+       <property name="styleSheet">
+        <string notr="true">font: 20pt &quot;Comic Sans MS&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Seidel method</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QTableWidget" name="seidelTable">
+       <property name="styleSheet">
+        <string notr="true">font: 8pt &quot;Comic Sans MS&quot;;</string>
+       </property>
+       <property name="editTriggers">
+        <set>QAbstractItemView::NoEditTriggers</set>
+       </property>
+       <attribute name="verticalHeaderVisible">
+        <bool>false</bool>
+       </attribute>
+       <column>
+        <property name="text">
+         <string>k</string>
+        </property>
+        <property name="font">
+         <font>
+          <family>Comic Sans MS</family>
+         </font>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>x1</string>
+        </property>
+        <property name="font">
+         <font>
+          <family>Comic Sans MS</family>
+         </font>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>x2</string>
+        </property>
+        <property name="font">
+         <font>
+          <family>Comic Sans MS</family>
+         </font>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>x3</string>
+        </property>
+        <property name="font">
+         <font>
+          <family>Comic Sans MS</family>
+         </font>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>x4</string>
+        </property>
+        <property name="font">
+         <font>
+          <family>Comic Sans MS</family>
+         </font>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Delta</string>
+        </property>
+        <property name="font">
+         <font>
+          <family>Comic Sans MS</family>
+         </font>
+        </property>
+       </column>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>611</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
